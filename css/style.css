@@ -1,0 +1,49 @@
+/* Add font for Special Elite, to match KTANE format -- NOT CURRENTLY WORKING, FIGURE THIS OUT LATER*/
+
+@font-face {
+	font-family: 'SpecialElite';
+	src: url('../fonts/SpecialElite-webfont.eot');
+	src: url('../fonts/SpecialElite-webfont.eot?#iefix') format('embedded-opentype');
+	src: url('../fonts/SpecialElite-webfont.woff') format('woff');
+	src: url('../fonts/SpecialElite-webfont.ttf') format('ttf'); 
+}
+
+/* Frequently Used */
+
+body {
+	background: linear-gradient(to bottom right, rgb(0,0,0), rgb(40,40,40));
+}
+
+h1 {
+	font-size: 3rem;
+	color: purple;
+}
+
+/* Style for classes. */
+.main_description {
+	color: white;
+	font-size: 1.5rem;
+	padding: 3px;
+}
+
+.title {
+	font-size: 5rem;
+	padding: 3px 3px 3% 3%;
+	color: white;
+	text-align: center;
+}
+
+.basic_text {
+	font-size: 1.2rem;
+	color:white;
+
+}
+
+/* Style for images */
+.logo {
+	width: 10%;
+	height: 10%;
+	margin-top: 10px;
+	float: left;
+}
+
