@@ -40,6 +40,12 @@ h1 {
 
 }
 
+.module_buttons
+{
+	font-size: 1.4rem;
+	color:white;
+}
+
 .nav_bar {
 	Color: white;
 	font-size: 1.6rem;
