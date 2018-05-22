@@ -1,14 +1,8 @@
-/* Add font for Special Elite, to match KTANE format -- NOT CURRENTLY WORKING, FIGURE THIS OUT LATER*/
-
-@font-face {
-	font-family: 'SpecialElite';
-	src: url('../fonts/SpecialElite-webfont.eot');
-	src: url('../fonts/SpecialElite-webfont.eot?#iefix') format('embedded-opentype');
-	src: url('../fonts/SpecialElite-webfont.woff') format('woff');
-	src: url('../fonts/SpecialElite-webfont.ttf') format('ttf'); 
-}
-
 /* Frequently Used */
+
+* {
+	box-sizing: border-box;
+}
 
 body {
 	background: linear-gradient(to bottom right, rgb(0,0,0), rgb(40,40,40));
@@ -22,7 +16,7 @@ h1 {
 /* Style for classes. */
 .main_description {
 	color: white;
-	font-size: 1.5rem;
+	font-size: 1.4rem;
 	padding: 3px;
 }
 
@@ -30,20 +24,125 @@ h1 {
 	font-size: 5rem;
 	padding: 3px 3px 3% 3%;
 	color: white;
-	text-align: center;
-}
+	text-align: left;
+	vertical-align: left;
+	position: relative;
+	width: 100%;
+	}
 
+.header_text {
+	text-align: center;
+}	
+	
 .basic_text {
 	font-size: 1.2rem;
 	color:white;
 
 }
 
+.nav_bar {
+	Color: white;
+	font-size: 1.6rem;
+	float: right;
+	text-align: center;
+}
+
+.nav_bar a {
+	padding: 10px 25px;
+	color: #ffffff;
+	display: block;
+	background: #222222;
+}
+
+li {
+	list-style-type: none;
+	margin: 
+	}
+
 /* Style for images */
 .logo {
-	width: 10%;
-	height: 10%;
-	margin-top: 10px;
-	float: left;
+	width: 150px;
+	height: 150px;
+	margin: 10px;
+	position: relative;
+	left: 0;
 }
+
+/* Containers */
+.content_area {
+	padding: 1em 1em;
+}
+
+
+
+/* Media Queries */
+@media (min-width: 769px) {
+	.content_area {
+		width: 90%;
+		margin: 0 auto;
+	}
+	
+	.nav_bar li {
+		float: left;
+	}
+	
+	.clearfix::after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	
+	.nav_bar_row {
+		position: fixed;
+		width: 100%;
+		top: 0;
+		
+}
+
+@media (min-width: 1000px) {
+	.content_area {
+		width: 90%;
+		margin: 0 auto;
+	}
+	
+	.nav_bar li {
+		float: left;
+	}
+	
+	.clearfix::after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	
+	.nav_bar_row {
+		position: fixed;
+		width: 100%;
+		top: 0;
+	
+}
+
+@media (min-width: 1350px) {
+	
+	.column {
+		display: inline-block;
+		width: 50%;
+		margin-right: -4px;
+		vertical-align: bottom;
+		padding: 0 2em;
+	}
+	
+	.logo {
+		position:absolute;
+		left: 0;
+	}
+	
+	
+}
+
+	.clearfix::after {
+		content: "";
+		display: table;
+		clear: both;
+	}
 
