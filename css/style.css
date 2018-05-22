@@ -47,6 +47,12 @@ h1 {
 	text-align: center;
 }
 
+.paragraph_breaks
+{
+	padding: 30px 3px;
+	
+}
+
 .nav_bar a {
 	padding: 10px 25px;
 	color: #ffffff;
