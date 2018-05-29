@@ -34,13 +34,19 @@
 			<p class="main_description paragraph_breaks">
 				Here, you can practice using small mockups of various modules that may appear during the bombs.  Feel free to select a type of module to simulate, then enter your answer in the Answer box below.
 		    </p>
+			<p class="main_description paragraph_breaks" id="moduleInstructions"></p>
 			<form>
-				<input type="radio" id="emoji_math" name="module_name" value="emoji_math"><label for="emoji_math" class="module_buttons">Emoji Math</label><br>
-				<button type="make_puzzle">Create Puzzle</button>
+				<input id="emoji_math_start" type="button" value="Generate Emoji Math" onclick=startEmojiMath()>
+				<!--<button id="start_emoji_math">Create Emoji Math Puzzle</button>-->
 			</form>
-			
+			<form>
+				<p class="answer_font" id="emoji_puzzle">Query:  </p>
+				<p class="answer_font"><br>Answer:<br><input type="text" name="Answer" id="emoji_answer">
+				<input id="emoji_math_end" type="button" value="Check Solution" onclick=checkEmojiMath()></p>
+				<p class="answer_font" id="correctness"></p>
 		</div>
-		
+	<script src="js/puzzles.js"></script>
+			
 	</body>
 	
 </html>

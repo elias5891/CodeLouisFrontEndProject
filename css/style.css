@@ -1,3 +1,4 @@
+
 /* Frequently Used */
 
 * {
@@ -21,7 +22,7 @@ h1 {
 }
 
 .title {
-	font-size: 5rem;
+	font-size: 3rem;
 	padding: 3px 3px 3% 3%;
 	color: white;
 	text-align: left;
@@ -40,6 +41,11 @@ h1 {
 
 }
 
+.answer_font {
+	color:white;
+	font-size:1.8rem;
+}
+
 .module_buttons
 {
 	font-size: 1.4rem;
@@ -51,6 +57,7 @@ h1 {
 	font-size: 1.6rem;
 	float: right;
 	text-align: center;
+	display: inline-block;
 }
 
 .paragraph_breaks
@@ -60,7 +67,7 @@ h1 {
 }
 
 .nav_bar a {
-	padding: 10px 25px;
+	padding: 0px 25px;
 	color: #ffffff;
 	display: block;
 	background: #222222;
@@ -131,7 +138,11 @@ li {
 		position: fixed;
 		width: 100%;
 		top: 0;
+	}
 	
+	.title {
+	font-size: 4rem;
+	}
 }
 
 @media (min-width: 1350px) {
@@ -149,6 +160,9 @@ li {
 		left: 0;
 	}
 	
+	.title {
+	font-size: 5rem;
+	}
 	
 }
 
