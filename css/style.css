@@ -21,6 +21,12 @@ h1 {
 	padding: 3px;
 }
 
+.all_left {
+	display: inline-block;
+	float: left;
+	width: 75%;
+}
+
 .title {
 	font-size: 3rem;
 	padding: 3px 3px 3% 3%;
@@ -39,6 +45,12 @@ h1 {
 	font-size: 1.2rem;
 	color:white;
 
+}
+
+.moduleInstructions {
+	display: inline-block;
+	float: right;
+	width: 25%;
 }
 
 .answer_font {
