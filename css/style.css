@@ -1,5 +1,5 @@
 
-/* Frequently Used */
+/* Main Areas */
 
 * {
 	box-sizing: border-box;
@@ -13,6 +13,11 @@ h1 {
 	font-size: 3rem;
 	color: purple;
 }
+
+li {
+	list-style-type: none;
+	}
+
 
 /* Style for classes. */
 .main_description {
@@ -39,6 +44,9 @@ h1 {
 
 .header_text {
 	text-align: center;
+	font-size: 3rem;
+	margin: 0;
+	padding: 0;
 }	
 	
 .basic_text {
@@ -46,6 +54,14 @@ h1 {
 	color:white;
 
 }
+
+.paragraph_breaks
+{
+	padding: 30px 3px;
+	
+}
+
+/* Practice Sections Only */
 
 .moduleInstructions {
 	display: inline-block;
@@ -64,6 +80,8 @@ h1 {
 	color:white;
 }
 
+/* Navigation Areas */
+
 .nav_bar {
 	Color: white;
 	font-size: 1.6rem;
@@ -72,11 +90,6 @@ h1 {
 	display: inline-block;
 }
 
-.paragraph_breaks
-{
-	padding: 30px 3px;
-	
-}
 
 .nav_bar a {
 	padding: 0px 25px;
@@ -85,10 +98,6 @@ h1 {
 	background: #222222;
 }
 
-li {
-	list-style-type: none;
-	margin: 
-	}
 
 /* Style for images */
 .logo {
@@ -105,29 +114,27 @@ li {
 }
 
 
-
 /* Media Queries */
 @media (min-width: 769px) {
 	.content_area {
 		width: 90%;
 		margin: 0 auto;
 	}
+
+	.header_text {
+		font-size: 5rem;
+	}
 	
 	.nav_bar li {
 		float: left;
-	}
-	
-	.clearfix::after {
-		content: "";
-		display: table;
-		clear: both;
 	}
 	
 	.nav_bar_row {
 		position: fixed;
 		width: 100%;
 		top: 0;
-		
+	}
+
 }
 
 @media (min-width: 1000px) {
@@ -136,6 +143,12 @@ li {
 		margin: 0 auto;
 	}
 	
+	.nav_bar_row {
+		position: fixed;
+		width: 100%;
+		top: 0;
+	}
+	
 	.nav_bar li {
 		float: left;
 	}
@@ -146,14 +159,8 @@ li {
 		clear: both;
 	}
 	
-	.nav_bar_row {
-		position: fixed;
-		width: 100%;
-		top: 0;
-	}
-	
 	.title {
-	font-size: 4rem;
+		font-size: 4rem;
 	}
 }
 
@@ -178,9 +185,8 @@ li {
 	
 }
 
-	.clearfix::after {
+.clearfix::after {
 		content: "";
 		display: table;
 		clear: both;
 	}
-
