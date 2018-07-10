@@ -5,12 +5,13 @@ var second_ones;
 var answer;
 var submittedAnswer;
 
-//Objects to start a few sample modules.
+//Grabs a random number 0-9.
 
 function RNG(maxvalue) {
   return Math.floor(Math.random()*10);
 }
 
+// Converts numeric_values (from the RNG function) into symbols to display.
 function find_symbol(numeric_value) {
 	switch(numeric_value) {
 		case 0:
@@ -48,6 +49,8 @@ function find_symbol(numeric_value) {
 	}
 }
 
+//Initializes the puzzle upon pressing, generating the numbers to add, and the display to show.  Also shows the instructions for the module, and sets up the containers for the correct answer to display.
+
 function startEmojiMath() {
   first_tens = RNG(10);	
   first_ones = RNG(10);
@@ -68,7 +71,7 @@ function startEmojiMath() {
 
 
 
-
+//Checks the results of the automated calculation vs what has been typed into the input box.
 
 function checkEmojiMath() {
 	console.log("Entered function");
