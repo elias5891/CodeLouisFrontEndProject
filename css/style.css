@@ -78,7 +78,7 @@ li {
 .module_buttons
 {
 	font-size: 1.4rem;
-	color:white;
+	color:grey;
 }
 
 /* Navigation Areas */
@@ -138,7 +138,7 @@ li {
 
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 900px) {
 	.content_area {
 		width: 90%;
 		margin: 0 auto;
@@ -165,7 +165,7 @@ li {
 	}
 }
 
-@media (min-width: 1350px) {
+@media (min-width: 1100px) {
 	
 	.column {
 		display: inline-block;
