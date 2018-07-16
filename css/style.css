@@ -99,6 +99,10 @@ li {
 	background: #222222;
 }
 
+.bigview {
+	visibility: hidden;
+}
+
 
 /* Style for images */
 .logo {
@@ -136,6 +140,7 @@ li {
 		top: 0;
 	}
 
+	
 }
 
 @media (min-width: 900px) {
@@ -173,6 +178,14 @@ li {
 		margin-right: -4px;
 		vertical-align: bottom;
 		padding: 0 2em;
+	}
+
+	.bigview {
+		visibility: visible;
+	}
+	
+	.smallview {
+		visibility: hidden;
 	}
 	
 	.logo {
