@@ -101,6 +101,7 @@ li {
 
 .bigview {
 	visibility: hidden;
+	position: absolute;
 }
 
 
@@ -182,6 +183,7 @@ li {
 
 	.bigview {
 		visibility: visible;
+		position: relative;
 	}
 	
 	.smallview {
