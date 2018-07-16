@@ -1,13 +1,18 @@
+@font-face {
+  font-family: "KTaNEfont";
+  src: url("SpecialElite.ttf");
+}
 
 /* Main Areas */
 
 * {
+	
 	box-sizing: border-box;
 }
 
 body {
 	background: linear-gradient(to bottom right, rgb(0,0,0), rgb(40,40,40));
-	font-family: default;
+	font-family:  "KTaNEfont", serif;
 }
 
 h1 {
@@ -41,6 +46,7 @@ li {
 	vertical-align: left;
 	position: relative;
 	width: 100%;
+	font-family: serif;
 	}
 
 .header_text {
